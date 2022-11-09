@@ -119,7 +119,9 @@ export default function Home() {
                   <option value="500">500</option>
                 </Select>
               </FormControl>
-              <Button colorScheme="blue">Submit</Button>
+              <Button role="submit" colorScheme="blue" type="submit">
+                Submit
+              </Button>
             </div>
           </form>
         </div>
